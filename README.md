@@ -8,7 +8,7 @@
 
 # Inputs and Outputs
 
-  The multimode modem has the following inputs and outputs:
+The multimode modem has the following inputs and outputs:
      
 | Type   | Function      | Size     |
 |--------|---------------|----------|
