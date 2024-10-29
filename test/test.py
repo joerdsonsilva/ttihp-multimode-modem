@@ -8,7 +8,7 @@ from cocotb.triggers import ClockCycles, RisingEdge, FallingEdge, Timer
 @cocotb.test()
 async def test_project(dut):
     dut._log.info("Start")
-
+ 
  # Set the clock period to 100 ns (10 MHz)
     clock = Clock(dut.clk, 100, units="ns")
     cocotb.start_soon(clock.start())
